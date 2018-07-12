@@ -3,7 +3,7 @@
 class out_Normalize {
 
 	/**
-	 * Convert DATA (replace space & lower case).
+	 * Normalize DATA (lower case & replace space).
 	 *
 	 * @param $string
 	 *
