@@ -6,10 +6,12 @@ class out_Hash {
 	 * Hash generator.
 	 *
 	 * @return string
-	 * -------------------------------------------------------------------------------------------------------------- */
+	 * @throws \Exception
+	 */
 	public static function outHash() {
-		$hash = hash( 'crc32b', date( 'Y-m-d.H-i-s' ) . md5( uniqid( mt_rand(), true ) ) );
+		$date = new \DateTime();
+		$out = hash( 'crc32b', sha1( $date->getTimestamp() . uniqid( bin2hex( random_bytes( 32 ) ), true ) ) );
 
-		return $hash;
+		return $out;
 	}
 }

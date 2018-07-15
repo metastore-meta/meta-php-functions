@@ -9,7 +9,7 @@ class get_MessageText {
 	 * @param $key
 	 *
 	 * @return string
-	 * -------------------------------------------------------------------------------------------------------------- */
+	 */
 	public static function getMessageText( $id, $key ) {
 		$string  = 'mw-ext-' . $id . '-' . $key;
 		$message = wfMessage( $string )->inContentLanguage();

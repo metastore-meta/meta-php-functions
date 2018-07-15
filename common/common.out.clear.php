@@ -8,7 +8,7 @@ class out_Clear {
 	 * @param $string
 	 *
 	 * @return string
-	 * -------------------------------------------------------------------------------------------------------------- */
+	 */
 	public static function outClear( $string ) {
 		$trim = trim( $string );
 		$out  = htmlspecialchars( $trim, ENT_QUOTES );

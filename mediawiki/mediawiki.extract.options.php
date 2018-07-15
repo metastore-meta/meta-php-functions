@@ -11,7 +11,7 @@ class extract_Options {
 	 * @param PPFrame $frame
 	 *
 	 * @return array
-	 * -------------------------------------------------------------------------------------------------------------- */
+	 */
 	public static function extractOptions( $options = [], PPFrame $frame ) {
 		$results = [];
 

@@ -10,14 +10,14 @@ class cookie_Save {
 	 * @param $value
 	 *
 	 * @return mixed
-	 * -------------------------------------------------------------------------------------------------------------- */
+	 */
 	public static function saveCookie( $type, $name, $value ) {
 		if ( $type === 'form' ) {
-			$cookie = setcookie( $name, Core::outClear( $_POST[ $value ] ), strtotime( '+30 days' ) );
+			$out = setcookie( $name, Core::outClear( $_POST[ $value ] ), strtotime( '+30 days' ) );
 		} else {
-			$cookie = setcookie( $name, Core::outClear( $value ) );
+			$out = setcookie( $name, Core::outClear( $value ) );
 		}
 
-		return $cookie;
+		return $out;
 	}
 }
