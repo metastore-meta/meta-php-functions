@@ -1,6 +1,6 @@
 <?php
 
-class extract_Options {
+class Class_Extract_Options {
 
 	/**
 	 * Converts an array of values in form [0] => "name=value" into a real

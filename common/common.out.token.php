@@ -1,6 +1,6 @@
 <?php
 
-class out_Token {
+class Class_Token {
 
 	/**
 	 * Token generator.

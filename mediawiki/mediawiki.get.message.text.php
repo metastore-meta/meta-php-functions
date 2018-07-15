@@ -1,6 +1,6 @@
 <?php
 
-class get_MessageText {
+class Class_MessageText {
 
 	/**
 	 * Wiki Framework: Message.

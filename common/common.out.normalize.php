@@ -1,6 +1,6 @@
 <?php
 
-class out_Normalize {
+class Class_Normalize {
 
 	/**
 	 * Normalize DATA (lower case & replace space).

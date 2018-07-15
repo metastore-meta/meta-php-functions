@@ -1,6 +1,6 @@
 <?php
 
-class out_Translit {
+class Class_Translit {
 
 	/**
 	 * Transliterate a string.

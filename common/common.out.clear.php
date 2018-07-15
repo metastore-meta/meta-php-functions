@@ -1,6 +1,6 @@
 <?php
 
-class out_Clear {
+class Class_Clear {
 
 	/**
 	 * Clear DATA (escape html).

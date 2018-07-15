@@ -1,6 +1,6 @@
 <?php
 
-class get_Config {
+class Class_Config {
 
 	/**
 	 * Wiki Framework: Configuration parameters.

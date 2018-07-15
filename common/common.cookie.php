@@ -1,6 +1,6 @@
 <?php
 
-class cookie_Save {
+class Class_Cookie {
 
 	/**
 	 * Cookie: save value.
@@ -17,6 +17,19 @@ class cookie_Save {
 		} else {
 			$out = setcookie( $name, Core::outClear( $value ) );
 		}
+
+		return $out;
+	}
+
+	/**
+	 * Cookie: get value.
+	 *
+	 * @param $name
+	 *
+	 * @return mixed
+	 */
+	public static function getCookie( $name ) {
+		$out = $_COOKIE[ $name ];
 
 		return $out;
 	}

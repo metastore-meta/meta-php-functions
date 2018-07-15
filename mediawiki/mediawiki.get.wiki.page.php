@@ -1,6 +1,6 @@
 <?php
 
-class get_WikiPage {
+class Class_WikiPage {
 
 	/**
 	 * Wiki Framework: WikiPage.

@@ -1,6 +1,6 @@
 <?php
 
-class get_JSON {
+class Class_JSON {
 
 	/**
 	 * Get JSON data.

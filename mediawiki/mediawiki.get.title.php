@@ -1,6 +1,6 @@
 <?php
 
-class get_Title {
+class Class_Title {
 
 	/**
 	 * Wiki Framework: Title.

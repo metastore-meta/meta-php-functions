@@ -1,6 +1,6 @@
 <?php
 
-class out_CR {
+class Class_CR {
 
 	/**
 	 * METADATA CR.

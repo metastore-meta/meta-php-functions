@@ -1,6 +1,6 @@
 <?php
 
-class get_User {
+class Class_User {
 
 	/**
 	 * Wiki Framework: User.
