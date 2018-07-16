@@ -8,12 +8,13 @@ class Class_Cookie {
 	 * @param $type
 	 * @param $name
 	 * @param $value
+	 * @param string $time
 	 *
-	 * @return mixed
+	 * @return bool
 	 */
-	public static function saveCookie( $type, $name, $value ) {
+	public static function saveCookie( $type, $name, $value, $time = '+30 days' ) {
 		if ( $type === 'form' ) {
-			$out = setcookie( $name, Core::outClear( $_POST[ $value ] ), strtotime( '+30 days' ) );
+			$out = setcookie( $name, Core::outClear( $_POST[ $value ] ), strtotime( $time ) );
 		} else {
 			$out = setcookie( $name, Core::outClear( $value ) );
 		}

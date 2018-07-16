@@ -32,11 +32,11 @@ class Class_cURL {
 	 * cURL: JSON cache.
 	 *
 	 * @param $url
+	 * @param string $path
 	 *
 	 * @return mixed
 	 */
-	public static function jsonCache( $url ) {
-		$path    = '/../cache/';
+	public static function jsonCache( $url, $path = '/cache/' ) {
 		$cache   = __DIR__ . $path . md5( $url );
 		$refresh = 60 * 60;
 
