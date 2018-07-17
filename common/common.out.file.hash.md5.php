@@ -3,7 +3,7 @@
 class Class_File_Hash_MD5 {
 
 	/**
-	 * Calculate the md5 hash of a file
+	 * Calculate the md5 hash of a file.
 	 *
 	 * @param $filename
 	 *
