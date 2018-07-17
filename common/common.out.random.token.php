@@ -3,7 +3,7 @@
 class Class_Random_Token {
 
 	/**
-	 * Token generator.
+	 * Random token generator.
 	 *
 	 * @param int $length
 	 *
